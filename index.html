@@ -1,91 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VortexWS - Próximamente</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vortex World Solutions - Próximamente</title>
     <style>
-        /* Estilos globales */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #122b24; /* Fondo oscuro */
-            color: #fff; /* Color de texto blanco para contraste */
-            background-image: url('https://www.transparenttextures.com/patterns/asfalt.png'); /* Patrón rugoso */
-            background-size: cover;
-            background-attachment: fixed;
-            text-align: center;
-            overflow: hidden;
-        }
+      /* Estilos del body */
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #122b24; /* Fondo oscuro */
+        background-image: url("https://github.com/FrancoVrtx/vortexws/blob/main/vortex.png?raw=true"); /* Imagen de fondo */
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(5px);
+      }
 
-        /* Estilo del contenedor central */
-        .container {
-            background-color: rgba(18, 43, 36, 0.8); /* Fondo oscuro con transparencia para que se vea la textura */
-            border-radius: 15px;
-            padding: 50px 60px;
-            width: 100%;
-            max-width: 700px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        }
+      /* Caja del contenido */
+      .content {
+        background-color: rgba(0, 0, 0, 0.7); /* Solo oscuro, sin fondo extra */
+        color: white; /* Color del texto */
+        padding: 40px;
+        text-align: center;
+        border-radius: 15px;
+        max-width: 600px; /* Máximo ancho del rectángulo */
+        width: 100%;
+        box-sizing: border-box;
+      }
 
-        /* Título principal */
-        h1 {
-            font-size: 3.5rem;
-            color: #ffd561; /* Color cálido dorado */
-            margin-bottom: 20px;
-            font-weight: bold;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
-            animation: fadeIn 2s ease-in-out;
-        }
+      /* Estilo del encabezado */
+      h1 {
+        font-size: 3.5em;
+        margin-bottom: 20px;
+        color: #ffea00; /* Amarillo fuerte para el título */
+      }
 
-        /* Subtítulo */
-        p {
-            font-size: 1.4rem;
-            color: #fffba8; /* Color amarillo claro */
-            margin-top: 20px;
-            animation: fadeIn 3s ease-in-out;
-        }
+      /* Estilo del texto */
+      p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        line-height: 1.8;
+      }
 
-        /* Pie de página */
-        .footer {
-            font-size: 1rem;
-            color: #ff678d; /* Rosa cálido */
-            margin-top: 30px;
-            font-style: italic;
-            animation: fadeIn 4s ease-in-out;
-        }
+      /* Pie de página */
+      .footer {
+        font-size: 0.9em;
+        margin-top: 30px;
+      }
 
-        /* Animación de aparición */
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
-        }
+      .footer a {
+        color: #ff678d; /* Color de enlaces */
+        text-decoration: none;
+      }
 
-        /* Estilo adicional para la intriga */
-        .intriga {
-            font-size: 1.2rem;
-            color: #0c6489; /* Azul oscuro */
-            margin-top: 40px;
-            font-weight: bold;
-            animation: fadeIn 5s ease-in-out;
-        }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+      .footer span {
+        color: #ffd561; /* Color amarillo para la referencia de IA */
+        font-weight: bold;
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Vortex World Solutions</h1>
-        <p>Estamos trabajando para brindarte una experiencia única. ¡Pronto podrás conocer más sobre nuestros servicios!</p>
-        <div class="intriga">
-            <p>¿Listo para explorar las posibilidades de la inteligencia artificial? 💡</p>
-        </div>
-        <div class="footer">
-            <p>&copy; 2024 Vortex World Solutions - Todos los derechos reservados</p>
-        </div>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Vortex World Solutions</h1>
+      <p>
+        <span>¡Estamos casi listos!</span><br />
+        Pronto podrás descubrir todo lo que tenemos preparado para llevar tu
+        negocio al siguiente nivel.
+      </p>
+
+      <p>
+        <span
+          >¿Sabías que nuestros agentes de IA ya están trabajando más horas que
+          tu equipo?</span
+        ><br />
+        Pero no te preocupes, a ellos le encanta hacer todo el trabajo pesado
+        mientras vos te enfocas en lo que realmente importa.
+      </p>
+
+      <p class="footer">
+        © 2024 Vortex World Solutions - Todos los derechos reservados. <br />
+      </p>
     </div>
-</body>
+  </body>
 </html>
